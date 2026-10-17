@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "id": "sample-watch",
+      "name": "ساعة أنيقة",
+      "category": "إكسسوارات",
+      "price": 249,
+      "oldPrice": 299,
+      "stock": 10,
+      "image": "/assets/product-watch.png",
+      "description": "ساعة بتصميم عصري وأنيق، مناسبة للاستعمال اليومي والهدايا.",
+      "active": true,
+      "createdAt": "2026-10-17T00:00:00.000Z"
+    }
+  ],
+  "orders": []
+}

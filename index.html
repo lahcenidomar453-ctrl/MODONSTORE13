@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101b34">
+  <meta name="description" content="MODONSTORE - تسوق منتجات مختارة بثقة، والدفع عند الاستلام في جميع مدن المغرب.">
+  <title>MODONSTORE | تسوق بثقة</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="announcement">🚚 التوصيل متاح لجميع مدن المغرب · الأداء عند الاستلام</div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="MODONSTORE الصفحة الرئيسية"><span class="brand-mark">M</span><span>MODON<span class="brand-accent">STORE</span><small>SMART SHOPPING</small></span></a>
+    <form class="search" id="searchForm"><input id="searchInput" placeholder="قلب على السلعة اللي بغيتي..." aria-label="البحث عن المنتجات"><button aria-label="بحث">⌕</button></form>
+    <div class="header-actions"><a href="#products" class="text-link">المنتجات</a><button class="cart-button" id="openCart">🛒 السلة <span id="cartCount">0</span></button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">مرحبا بك فـ MODONSTORE</span>
+        <h1>اختيارات ذكية.<br><span>تسوق بلا تعقيد.</span></h1>
+        <p>اكتشف منتجات مختارة بعناية، أثمنة واضحة، وطلب ساهل من الهاتف ديالك. خلّص ملي توصلك السلعة.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="#products">تسوق دابا <span>←</span></a><a class="btn btn-ghost" href="#how">كيفاش نشري؟</a></div>
+        <div class="hero-points"><span>✓ الدفع عند الاستلام</span><span>✓ التوصيل للمغرب</span><span>✓ تواصل مباشر</span></div>
+      </div>
+      <div class="hero-art"><div class="hero-glow"></div><div class="hero-card"><span class="floating-tag">اختيار مميز</span><img src="/assets/product-watch.png" alt="منتج من MODONSTORE"><div class="hero-card-bottom"><span>منتجات مختارة</span><b>MODONSTORE</b></div></div><span class="orb orb-one"></span><span class="orb orb-two"></span></div>
+    </section>
+    <section class="trust-strip">
+      <div><span class="trust-icon">📦</span><span><b>طلب سهل</b><small>فخطوات قليلة</small></span></div>
+      <div><span class="trust-icon">💵</span><span><b>الأداء عند الاستلام</b><small>ما تخلص حتى توصلك</small></span></div>
+      <div><span class="trust-icon">🇲🇦</span><span><b>جميع مدن المغرب</b><small>التوصيل حسب المنطقة</small></span></div>
+      <div><span class="trust-icon">💬</span><span><b>تواصل مباشر</b><small>تأكيد عبر واتساب</small></span></div>
+    </section>
+    <section class="products-section" id="products">
+      <div class="section-heading"><div><span class="eyebrow">اختار اللي مناسب ليك</span><h2>المنتجات</h2><p>الأثمنة بالدرهم المغربي (DH).</p></div><div class="filters"><select id="categoryFilter" aria-label="تصفية حسب الصنف"><option value="">جميع الأصناف</option></select><select id="sortFilter" aria-label="ترتيب المنتجات"><option value="featured">الترتيب الافتراضي</option><option value="low">الثمن: من الأقل للأعلى</option><option value="high">الثمن: من الأعلى للأقل</option></select></div></div>
+      <div class="product-grid" id="productGrid"><div class="loading">كنوجدو المنتجات...</div></div>
+      <div id="emptyProducts" class="empty-state hidden">ما لقينا حتى منتج بهاد البحث. جرّب كلمة أخرى.</div>
+    </section>
+    <section class="how-section" id="how"><div class="section-heading centered"><span class="eyebrow">ساهلة وبسيطة</span><h2>كيفاش تشري؟</h2><p>من الاختيار حتى تأكيد الطلب، كلشي واضح.</p></div><div class="steps">
+      <article><span class="step-num">01</span><div class="step-icon">🛍️</div><h3>اختار المنتجات</h3><p>شوف الصور والأثمنة، وحدد الكمية اللي بغيتي.</p></article>
+      <article><span class="step-num">02</span><div class="step-icon">🧾</div><h3>عمّر معلوماتك</h3><p>الاسم، الهاتف، المدينة والعنوان ديال التوصيل.</p></article>
+      <article><span class="step-num">03</span><div class="step-icon">💬</div><h3>أكد عبر واتساب</h3><p>كيتم تسجيل الطلب وكيحل واتساب برسالة جاهزة للمتجر.</p></article>
+      <article><span class="step-num">04</span><div class="step-icon">📦</div><h3>خلّص عند الاستلام</h3><p>المتجر يتواصل معاك لتأكيد التفاصيل قبل الإرسال.</p></article>
+    </div></section>
+    <section class="bottom-cta"><div><span class="eyebrow">عندك سؤال؟</span><h2>حنا هنا باش نعاونوك.</h2><p>تواصل معانا مباشرة عبر واتساب للاستفسار على المنتجات والطلبات.</p></div><a id="contactWhatsApp" class="btn btn-light" href="https://wa.me/212654283265" target="_blank" rel="noopener">تواصل عبر واتساب ↗</a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="/"><span class="brand-mark">M</span><span>MODON<span class="brand-accent">STORE</span><small>SMART SHOPPING</small></span></a><p>© <span id="year"></span> MODONSTORE. جميع الحقوق محفوظة.</p><a href="/admin" class="admin-link">إدارة المتجر</a></footer>
+  <div class="overlay hidden" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات"><div class="drawer-head"><div><span class="eyebrow">سلتك</span><h2>مشترياتي</h2></div><button class="icon-button" id="closeCart" aria-label="إغلاق">✕</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div class="total-line"><span>المجموع</span><b id="cartTotal">0 DH</b></div><small>مصاريف التوصيل يتم تأكيدها مع المتجر قبل الإرسال.</small><button id="checkoutBtn" class="btn btn-primary full-width">إتمام الطلب ←</button></div></aside>
+  <dialog id="checkoutDialog" class="checkout-dialog"><form id="checkoutForm"><div class="dialog-head"><div><span class="eyebrow">باقي غير خطوة</span><h2>معلومات التوصيل</h2></div><button type="button" id="closeCheckout" class="icon-button">✕</button></div><p class="dialog-note">غادي نرسلو الطلب للمتجر ويفتح ليك واتساب باش تأكد الطلب.</p><div class="form-grid"><label>الاسم الكامل *<input name="name" required maxlength="120" autocomplete="name" placeholder="الاسم والنسب"></label><label>رقم الهاتف *<input name="phone" required maxlength="30" autocomplete="tel" type="tel" placeholder="06XXXXXXXX"></label><label>المدينة *<input name="city" required maxlength="100" autocomplete="address-level2" placeholder="مثال: مراكش"></label><label>العنوان بالتفصيل *<input name="address" required maxlength="500" autocomplete="street-address" placeholder="الحي، الزنقة، رقم الدار..."></label><label class="wide">ملاحظة (اختياري)<textarea name="note" maxlength="1000" rows="2" placeholder="شي معلومة إضافية للتوصيل"></textarea></label></div><div class="checkout-total"><span>مجموع المنتجات</span><b id="checkoutTotal">0 DH</b></div><p class="fine-print">الأداء عند الاستلام. ثمن التوصيل غير محسوب هنا، ويتم تأكيده معاك قبل الإرسال.</p><button class="btn btn-primary full-width" id="submitOrder">تسجيل الطلب وفتح واتساب</button><p id="checkoutError" class="error-text"></p></form></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/js/app.js"></script>
+</body></html>
